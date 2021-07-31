@@ -5,9 +5,13 @@
 -->Using eval function
 
 -->Create class Calculator and define global variable
+
 -->Create Two Function
-       i)btnClick 
-       ii)clear 
+      
+      i)btnClick 
+     
+     ii)clear 
+      
 
 # Screenshot:
 
