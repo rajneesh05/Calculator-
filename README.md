@@ -1,7 +1,13 @@
 # Calculator-
 # Requrements:
 -->Python GUI Tkinter
+
 -->Using eval function
+
+-->Create class Calculator and define global variable
+-->Create Two Function
+       i)btnClick 
+       ii)clear 
 
 # Screenshot:
 
