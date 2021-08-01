@@ -4,7 +4,7 @@
 
 -->Create class Calculator 
 
--->Create Two Function
+-->Create Three Function
       
       i)btnClick 
      
