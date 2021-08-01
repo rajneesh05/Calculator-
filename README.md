@@ -2,15 +2,15 @@
 # Requrements:
 -->Python GUI Tkinter
 
--->Using eval function
-
--->Create class Calculator and define global variable
+-->Create class Calculator 
 
 -->Create Two Function
       
       i)btnClick 
      
      ii)clear 
+     
+    iii)evel
       
 
 # Screenshot:
