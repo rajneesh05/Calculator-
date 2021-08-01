@@ -13,7 +13,7 @@ class Calculator:
 ##        global text_input
         self.text_input.set("")
         self.operator =""    
-    def equal(self):
+    def eval(self):
 ##        global operator
 ##        global text_input
         self.sumup=str(eval(self.operator))
@@ -41,7 +41,7 @@ class Calculator:
         btnclear=Button(master,padx=16,pady=8,bd=8,fg="white",bg="red", font=('arial',20,'bold'), text="c",command= self.clear).grid(row=1,column=3,pady=1,padx=1)
         btndiv=Button(master,padx=16,pady=8,bd=8,fg="white",bg="black", font=('arial',20,'bold'), text="÷",command= lambda : self.btnClick("/")).grid(row=2,column=3,pady=3)
         btnmul=Button(master,padx=16,pady=8,bd=8,fg="white",bg="black", font=('arial',20,'bold'), text="x",command= lambda : self.btnClick("*")).grid(row=3,column=3,pady=3)
-        btnequal=Button(master,padx=16,pady=8,bd=8,fg="white",bg="orange", font=('arial',20,'bold'), text="=",command= self.equal).grid(row=4,column=3,pady=3)
+        btnequal=Button(master,padx=16,pady=8,bd=8,fg="white",bg="orange", font=('arial',20,'bold'), text="=",command= self.eval).grid(row=4,column=3,pady=3)
 
     
 
